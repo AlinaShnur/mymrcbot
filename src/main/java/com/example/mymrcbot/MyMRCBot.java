@@ -65,7 +65,7 @@ public class MyMRCBot extends TelegramWebhookBot {
                 execute(document);
             }
             default: {
-                execute(new SendMessage(chat_id, "Хочешь узнать расписание?"));
+                execute(new SendMessage(chat_id, "Хочешь узнать расписание? /file"));
             }
         }
     }
